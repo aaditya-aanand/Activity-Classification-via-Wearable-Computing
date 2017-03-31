@@ -10,12 +10,12 @@ Filenames:
 
 Inside UCI HAR Dataset
 
-"README.txt"
-"activity_labels.txt"
-"features.txt"       
-"features_info.txt"
-"test"
-"train"
+1. "README.txt"
+2. "activity_labels.txt"
+3. "features.txt"       
+4. "features_info.txt"
+5. "test"
+6. "train"
 
 [Directory] train : Contains Training Data
 [Directory] test : Contains Test Data
@@ -24,21 +24,18 @@ Inside UCI HAR Dataset
 [File] features.txt : It contains a character vector containing the names of all the features.
 
 Inside [train]
-
 "X_train.txt"   "subject_train.txt"   "y_train.txt"
 
-
 Inside [test]
-
 "X_test.txt"   "subject_test.txt"   "y_test.txt"
 
 Variables:
 
-activity_labels: Contains a character vector of length 6
-features: Contains a character vector of length 561
-X_test: Contains the test data for 2947 observations of 561 features
-subject_test: Contains a factor vector of length 2947 having values representing 30 different subjects from 1 to 30
-y_test: Contains label for each test dataset - What activity the subject was doing?
+1. activity_labels: Contains a character vector of length 6
+2. features: Contains a character vector of length 561
+3. X_test: Contains the test data for 2947 observations of 561 features
+4. subject_test: Contains a factor vector of length 2947 having values representing 30 different subjects from 1 to 30
+5. y_test: Contains label for each test dataset - What activity the subject was doing?
 
 Similarly for X_train, subject_train, and y_train, these are the variables for training dataset with same description!
 
